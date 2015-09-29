@@ -1,2 +1,9 @@
 E:\cursogit\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

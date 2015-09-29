@@ -35,9 +35,9 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             double x, y, z;
-            x = double.Parse(Console.ReadLine());
-            y = double.Parse(Console.ReadLine());
-            z = double.Parse(Console.ReadLine());
+            x = double.Parse(txt_num.Text);
+            y = double.Parse(txt_num1.Text);
+
 
             z= x-y;
 
