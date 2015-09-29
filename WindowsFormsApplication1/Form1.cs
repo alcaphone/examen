@@ -16,5 +16,14 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x, y,z;
+            x = double.Parse(textBox1 .Text );
+            y = double.Parse(textBox2.Text);
+            z = x / y;
+            label3.Text = "el resultado es  :   "+z ;
+        }
     }
 }
