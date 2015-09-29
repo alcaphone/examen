@@ -16,5 +16,14 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void bto_calcular_Click(object sender, EventArgs e)
+        {
+            int x, y, z;
+            x = int.Parse(txt_1.Text);
+            y = int.Parse(txt_2.Text);
+            z = x + y;
+            lbl_resultado.Text = z+"";
+        }
     }
 }
