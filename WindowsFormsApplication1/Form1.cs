@@ -16,5 +16,38 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_num_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x, y, z;
+            x = double.Parse(Console.ReadLine());
+            y = double.Parse(Console.ReadLine());
+            z = double.Parse(Console.ReadLine());
+
+            z= x-y;
+
+            label2.Text = "EL RESULTADO ES:" + z;
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,1 +1,2 @@
 E:\cursogit\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\HP14-R020LA\examen\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
