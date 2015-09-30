@@ -34,25 +34,29 @@
             this.txt_2 = new System.Windows.Forms.TextBox();
             this.lbl_resultado = new System.Windows.Forms.Label();
             this.bto_calcular = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(474, 18);
+            this.label1.Location = new System.Drawing.Point(36, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 13);
+            this.label1.Size = new System.Drawing.Size(99, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "ingresar primer numero";
+            this.label1.Text = "ingrese el numero 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(474, 95);
+            this.label2.Location = new System.Drawing.Point(36, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 13);
+            this.label2.Size = new System.Drawing.Size(99, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "ingresar 2 numero";
+            this.label2.Text = "ingrese el numero 2";
             // 
             // txt_1
             // 
@@ -86,15 +90,52 @@
             this.bto_calcular.UseVisualStyleBackColor = true;
             this.bto_calcular.Click += new System.EventHandler(this.bto_calcular_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(165, 37);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(165, 75);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(100, 146);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "label3";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(48, 166);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "dividir";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 367);
+            this.ClientSize = new System.Drawing.Size(878, 513);
             this.Controls.Add(this.bto_calcular);
             this.Controls.Add(this.lbl_resultado);
             this.Controls.Add(this.txt_2);
             this.Controls.Add(this.txt_1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -108,10 +149,17 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+
         private System.Windows.Forms.TextBox txt_1;
         private System.Windows.Forms.TextBox txt_2;
         private System.Windows.Forms.Label lbl_resultado;
         private System.Windows.Forms.Button bto_calcular;
+
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
+
     }
 }
 

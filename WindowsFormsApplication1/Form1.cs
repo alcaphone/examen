@@ -17,13 +17,24 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
+
         private void bto_calcular_Click(object sender, EventArgs e)
         {
             int x, y, z;
             x = int.Parse(txt_1.Text);
             y = int.Parse(txt_2.Text);
             z = x + y;
-            lbl_resultado.Text = z+"";
+            lbl_resultado.Text = z + "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x, y, z;
+            x = double.Parse(textBox1.Text);
+            y = double.Parse(textBox2.Text);
+            z = x / y;
+            label3.Text = "el resultado es  :   " + z;
+
         }
     }
 }
